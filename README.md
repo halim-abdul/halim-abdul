@@ -208,25 +208,25 @@ I focus on translating mathematical theory into efficient algorithms, computatio
 
 <div align="center">
 
+<p><strong>Contribution activity from <a href="https://github.com/halimmath">@halimmath</a></strong></p>
+
 <img
   width="48%"
-  src="https://github-readme-stats.vercel.app/api?username=halim-abdul&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true"
-  alt="GitHub Statistics"
+  src="https://github-readme-stats.vercel.app/api?username=halimmath&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true"
+  alt="GitHub Statistics for halimmath"
 />
 
 <img
   width="48%"
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=halim-abdul&layout=compact&theme=tokyonight&hide_border=true&langs_count=10"
-  alt="Most Used Languages"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=halimmath&layout=compact&theme=tokyonight&hide_border=true&langs_count=10"
+  alt="Most Used Languages for halimmath"
 />
 
 <br><br>
 
-<!-- GITHUB STREAK ANIMATION -->
-
 <img
-  src="https://streak-stats.demolab.com?user=halim-abdul&theme=tokyonight&hide_border=true&background=00000000&ring=8A2BE2&fire=FF6F00&currStreakLabel=00D9FF"
-  alt="GitHub Contribution Streak"
+  src="https://streak-stats.demolab.com?user=halimmath&theme=tokyonight&hide_border=true&background=00000000&ring=8A2BE2&fire=FF6F00&currStreakLabel=00D9FF"
+  alt="GitHub Contribution Streak for halimmath"
   width="70%"
 />
 
@@ -234,22 +234,41 @@ I focus on translating mathematical theory into efficient algorithms, computatio
 
 ---
 
+# 📊 GitHub Contributions & Activity
 
-# <h2>📊 GitHub Contributions & Activity</h2>
+<div align="center">
 
-<!-- ====================================================== -->
-<!-- GITHUB CONTRIBUTIONS AND SNAKE ANIMATION              -->
-<!-- ====================================================== -->
-
-<!-- GITHUB CONTRIBUTION SNAKE -->
-
-<p align="center">
+<a href="https://github.com/halimmath">
   <img
-    src="https://raw.githubusercontent.com/halim-abdul/halim-abdul/output/github-contribution-grid-snake-dark.svg"
-    alt="Animated GitHub Contribution Snake"
-    width="100%"
+    src="https://img.shields.io/badge/Last_Year_Contributions-280-8A2BE2?style=for-the-badge&logo=github&logoColor=white"
+    alt="280 contributions in the last year — snapshot for halimmath on October 9, 2026"
   />
-</p>
+</a>
+
+<p><sub>280 contributions recorded for <a href="https://github.com/halimmath">@halimmath</a> on October 9, 2026. This badge is a snapshot and does not update automatically.</sub></p>
+
+<h3>🐍 Animated Contribution Snake</h3>
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/halim-abdul/halim-abdul/output/github-contribution-grid-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/halim-abdul/halim-abdul/output/github-contribution-grid-snake.svg"
+  />
+  <img
+    src="https://raw.githubusercontent.com/halim-abdul/halim-abdul/output/github-contribution-grid-snake.svg"
+    width="100%"
+    alt="Animated contribution snake using halimmath's GitHub contribution graph"
+  />
+</picture>
+
+<p><i>Snake generated from <a href="https://github.com/halimmath">@halimmath</a> contributions; SVG hosted in the <a href="https://github.com/halim-abdul/halim-abdul/tree/output">output branch</a>.</i></p>
+
+</div>
+
 ---
 
 # 🤝 Project Collaboration
