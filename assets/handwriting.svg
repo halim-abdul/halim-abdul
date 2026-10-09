@@ -1,0 +1,129 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1000"
+  height="230"
+  viewBox="0 0 1000 230"
+  role="img"
+  aria-labelledby="title desc"
+>
+
+<title id="title">Abdul Halim</title>
+
+<desc id="desc">
+  Animated handwritten-style personal signature
+</desc>
+
+<style>
+
+  .name {
+    font:
+      italic 96px
+      "URW Chancery L",
+      "Apple Chancery",
+      "Brush Script MT",
+      cursive;
+
+    fill: transparent;
+
+    stroke: #8b5cf6;
+    stroke-width: 1.6;
+    stroke-linejoin: round;
+
+    stroke-dasharray: 1600;
+    stroke-dashoffset: 1600;
+
+    animation:
+      write 4s ease forwards,
+      fillIn 1.1s ease 3s forwards;
+  }
+
+  .subtitle {
+    font: 500 17px system-ui, sans-serif;
+
+    letter-spacing: 6px;
+    fill: #7e8ca3;
+
+    opacity: 0;
+
+    animation:
+      appear 1.1s ease 3.2s forwards;
+  }
+
+  .line {
+    fill: none;
+
+    stroke: #22d3ee;
+    stroke-width: 3;
+    stroke-linecap: round;
+
+    stroke-dasharray: 600;
+    stroke-dashoffset: 600;
+
+    animation:
+      write 1.6s ease 2.5s forwards;
+  }
+
+  @keyframes write {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  @keyframes fillIn {
+    to {
+      fill: #a78bfa;
+    }
+  }
+
+  @keyframes appear {
+    to {
+      opacity: 1;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+
+    .name {
+      animation: none;
+      stroke-dashoffset: 0;
+      fill: #a78bfa;
+    }
+
+    .line {
+      animation: none;
+      stroke-dashoffset: 0;
+    }
+
+    .subtitle {
+      animation: none;
+      opacity: 1;
+    }
+
+  }
+
+</style>
+
+<text
+  x="500"
+  y="112"
+  text-anchor="middle"
+  class="name"
+>
+  Abdul Halim
+</text>
+
+<path
+  class="line"
+  d="M 250 139 Q 500 157 753 137"
+/>
+
+<text
+  x="500"
+  y="193"
+  text-anchor="middle"
+  class="subtitle"
+>
+  MATHEMATICS · SCIENTIFIC COMPUTING · ARTIFICIAL INTELLIGENCE
+</text>
+
+</svg>
