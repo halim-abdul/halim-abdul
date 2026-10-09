@@ -86,6 +86,16 @@ My work and research interests lie at the intersection of **Mathematics, Artific
 
 I focus on translating mathematical theory into efficient algorithms, computational models, reproducible experiments, and practical intelligent systems.
 
+
+<div align="center">
+
+<a href="https://drive.google.com/drive/folders/1NLqGIft3gr67WVv2sUT24Ajok1gwT3kT?usp=drive_link">
+  <img src="https://img.shields.io/badge/View%20CV-Abdul%20Halim-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" alt="View CV">
+</a>
+
+</div>
+
+
 ---
 
 # 🔬 Research & Technical Interests
@@ -233,37 +243,25 @@ I focus on translating mathematical theory into efficient algorithms, computatio
 
 <div align="center">
 
-<a href="https://github.com/halimmath">
-  <img
-    src="https://img.shields.io/badge/Contributions_Last_Year-280-8A2BE2?style=for-the-badge&logo=github&logoColor=white"
-    alt="280 GitHub Contributions"
-  />
-</a>
+  <h2>🐍 GitHub Contribution Snake</h2>
 
-<br><br>
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/halim-abdul/halim-abdul/output/github-contribution-grid-snake-dark.svg"
+    />
 
-<img
-  src="https://raw.githubusercontent.com/halimmath/halimmath/output/github-contribution-grid-snake-dark.svg"
-  width="100%"
-  alt="Animated GitHub Contribution Snake"
-/>
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/halim-abdul/halim-abdul/output/github-contribution-grid-snake.svg"
+    />
 
-<br><br>
-
-</div>
-
----
-# ✍️ Curriculum Vitae
-
-<div align="center">
-
-<p>
-  Click to access full resume.
-</p>
-
-<a href="https://drive.google.com/drive/folders/1NLqGIft3gr67WVv2sUT24Ajok1gwT3kT?usp=drive_link">
-  <img src="https://img.shields.io/badge/View%20CV-Abdul%20Halim-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" alt="View CV">
-</a>
+    <img
+      src="https://raw.githubusercontent.com/halim-abdul/halim-abdul/output/github-contribution-grid-snake.svg"
+      alt="Animated GitHub Contribution Snake"
+      width="100%"
+    />
+  </picture>
 
 </div>
 
