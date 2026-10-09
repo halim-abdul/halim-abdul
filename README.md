@@ -117,10 +117,10 @@ I focus on translating mathematical theory into efficient algorithms, computatio
 | Differential Geometry | Deep Learning | Business Intelligence |
 | Algebra & Optimization | Geometric Deep Learning | Data Engineering |
 | Partial Differential Equations | Explainable AI | Cloud Computing |
-| Numerical Mathematics | Computer Vision | AWS & Microsoft Azure |
+| Numerical Mathematics | Computer Vision | Automation |
 | Mathematical Modelling | Image Processing | MLOps |
 | Numerical Linear Algebra | 3D Vision & Point Clouds | Big Data Management |
-| Scientific Programming | Statistical Learning | Cloud Computing |
+| Scientific Programming | Statistical Learning | Power BI, Tableau, Qlik |
 | Computational Experiments | Graph Machine Learning | Model Deployment |
 
 ---
