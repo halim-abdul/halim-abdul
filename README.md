@@ -206,10 +206,6 @@ I focus on translating mathematical theory into efficient algorithms, computatio
 
 # 📊 GitHub Analytics
 
-<div align="center">
-
-<p><strong>GitHub activity for <a href="https://github.com/halim-abdul">@halim-abdul</a></strong></p>
-
 <img
   width="48%"
   src="https://github-readme-stats.vercel.app/api?username=halim-abdul&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true"
@@ -245,10 +241,6 @@ I focus on translating mathematical theory into efficient algorithms, computatio
   />
 </a>
 
-<p><sub>Contribution history shown here belongs exclusively to <a href="https://github.com/halim-abdul">@halim-abdul</a>. For the accurate rolling-year count, see the linked GitHub profile.</sub></p>
-
-<h3>🐍 Animated Contribution Snake</h3>
-
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
@@ -265,7 +257,6 @@ I focus on translating mathematical theory into efficient algorithms, computatio
   />
 </picture>
 
-<p><i>Generated from <a href="https://github.com/halim-abdul">@halim-abdul</a>'s contributions and published to the <a href="https://github.com/halim-abdul/halim-abdul/tree/output">output branch</a>.</i></p>
 
 </div>
 
