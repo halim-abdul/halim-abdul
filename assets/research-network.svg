@@ -1,0 +1,1073 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1100"
+  height="660"
+  viewBox="0 0 1100 660"
+  role="img"
+  aria-label="Abdul Halim Research Network — Mathematics, Artificial Intelligence, Scientific Computing and Actuarial Science"
+>
+
+  <title>Abdul Halim — Research and Technical Network</title>
+
+  <desc>
+    Animated research network connecting Mathematics,
+    Machine Learning, Computer Vision, Natural Language Processing,
+    Topological Data Analysis, Artificial Intelligence, MLOps,
+    AI Engineer, Geometric Deep Learning, Scientific Computing,
+    and Actuarial Science.
+  </desc>
+
+  <!-- ======================================================= -->
+  <!-- DEFINITIONS -->
+  <!-- ======================================================= -->
+
+  <defs>
+
+    <!-- Animated connection gradient -->
+
+    <linearGradient
+      id="lineGradient"
+      x1="0%"
+      y1="0%"
+      x2="100%"
+      y2="100%"
+    >
+
+      <stop offset="0%" stop-color="#00D9FF">
+        <animate
+          attributeName="stop-color"
+          values="#00D9FF;#58A6FF;#8A2BE2;#FF1493;#00D9FF"
+          dur="6s"
+          repeatCount="indefinite"
+        />
+      </stop>
+
+      <stop offset="50%" stop-color="#8A2BE2">
+        <animate
+          attributeName="stop-color"
+          values="#8A2BE2;#FF1493;#00D9FF;#58A6FF;#8A2BE2"
+          dur="6s"
+          repeatCount="indefinite"
+        />
+      </stop>
+
+      <stop offset="100%" stop-color="#FF1493">
+        <animate
+          attributeName="stop-color"
+          values="#FF1493;#00D9FF;#8A2BE2;#58A6FF;#FF1493"
+          dur="6s"
+          repeatCount="indefinite"
+        />
+      </stop>
+
+    </linearGradient>
+
+
+    <!-- Animated central gradient -->
+
+    <radialGradient id="centerGradient">
+
+      <stop offset="0%" stop-color="#203A43">
+        <animate
+          attributeName="stop-color"
+          values="#203A43;#243B55;#392B58;#203A43"
+          dur="8s"
+          repeatCount="indefinite"
+        />
+      </stop>
+
+      <stop offset="60%" stop-color="#6C3FD1">
+        <animate
+          attributeName="stop-color"
+          values="#6C3FD1;#007ACC;#8A2BE2;#6C3FD1"
+          dur="8s"
+          repeatCount="indefinite"
+        />
+      </stop>
+
+      <stop offset="100%" stop-color="#00C9FF"/>
+
+    </radialGradient>
+
+
+    <!-- Strong glowing effect -->
+
+    <filter
+      id="strongGlow"
+      x="-60%"
+      y="-60%"
+      width="220%"
+      height="220%"
+    >
+
+      <feGaussianBlur
+        stdDeviation="6"
+        result="blur"
+      />
+
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+
+    </filter>
+
+
+    <!-- Soft glowing effect -->
+
+    <filter
+      id="softGlow"
+      x="-40%"
+      y="-40%"
+      width="180%"
+      height="180%"
+    >
+
+      <feGaussianBlur
+        stdDeviation="3"
+        result="blur"
+      />
+
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+
+    </filter>
+
+  </defs>
+
+
+  <!-- ======================================================= -->
+  <!-- ROTATING BACKGROUND RINGS -->
+  <!-- ======================================================= -->
+
+  <circle
+    cx="550"
+    cy="310"
+    r="190"
+    fill="none"
+    stroke="#58A6FF"
+    stroke-width="1"
+    stroke-dasharray="3 12"
+    opacity="0.18"
+  >
+
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 550 310"
+      to="360 550 310"
+      dur="35s"
+      repeatCount="indefinite"
+    />
+
+  </circle>
+
+
+  <circle
+    cx="550"
+    cy="310"
+    r="230"
+    fill="none"
+    stroke="#8A2BE2"
+    stroke-width="1"
+    stroke-dasharray="5 16"
+    opacity="0.12"
+  >
+
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="360 550 310"
+      to="0 550 310"
+      dur="45s"
+      repeatCount="indefinite"
+    />
+
+  </circle>
+
+
+  <!-- ======================================================= -->
+  <!-- ANIMATED CONNECTIONS -->
+  <!-- ======================================================= -->
+
+  <g
+    fill="none"
+    stroke="url(#lineGradient)"
+    stroke-width="2.3"
+    stroke-dasharray="8 11"
+    opacity="0.85"
+  >
+
+    <!-- Mathematics -->
+
+    <path d="M550 310 L200 100">
+      <animate
+        attributeName="stroke-dashoffset"
+        values="0;-120"
+        dur="3.1s"
+        repeatCount="indefinite"
+      />
+    </path>
+
+
+    <!-- Machine Learning -->
+
+    <path d="M550 310 L420 85">
+      <animate
+        attributeName="stroke-dashoffset"
+        values="0;-120"
+        dur="2.5s"
+        repeatCount="indefinite"
+      />
+    </path>
+
+
+    <!-- Computer Vision -->
+
+    <path d="M550 310 L680 85">
+      <animate
+        attributeName="stroke-dashoffset"
+        values="0;-120"
+        dur="3.4s"
+        repeatCount="indefinite"
+      />
+    </path>
+
+
+    <!-- Natural Language Processing -->
+
+    <path d="M550 310 L900 100">
+      <animate
+        attributeName="stroke-dashoffset"
+        values="0;-120"
+        dur="2.9s"
+        repeatCount="indefinite"
+      />
+    </path>
+
+
+    <!-- Topological Data Analysis -->
+
+    <path d="M550 310 L160 310">
+      <animate
+        attributeName="stroke-dashoffset"
+        values="0;-120"
+        dur="3.3s"
+        repeatCount="indefinite"
+      />
+    </path>
+
+
+    <!-- Artificial Intelligence -->
+
+    <path d="M550 310 L940 310">
+      <animate
+        attributeName="stroke-dashoffset"
+        values="0;-120"
+        dur="2.7s"
+        repeatCount="indefinite"
+      />
+    </path>
+
+
+    <!-- MLOps -->
+
+    <path d="M550 310 L250 520">
+      <animate
+        attributeName="stroke-dashoffset"
+        values="0;-120"
+        dur="3.6s"
+        repeatCount="indefinite"
+      />
+    </path>
+
+
+    <!-- AI Engineer -->
+
+    <path d="M550 310 L470 535">
+      <animate
+        attributeName="stroke-dashoffset"
+        values="0;-120"
+        dur="2.8s"
+        repeatCount="indefinite"
+      />
+    </path>
+
+
+    <!-- Geometric Deep Learning -->
+
+    <path d="M550 310 L650 535">
+      <animate
+        attributeName="stroke-dashoffset"
+        values="0;-120"
+        dur="3.2s"
+        repeatCount="indefinite"
+      />
+    </path>
+
+
+    <!-- Scientific Computing -->
+
+    <path d="M550 310 L850 520">
+      <animate
+        attributeName="stroke-dashoffset"
+        values="0;-120"
+        dur="2.6s"
+        repeatCount="indefinite"
+      />
+    </path>
+
+
+    <!-- Actuarial Science -->
+
+    <path d="M550 310 L85 505">
+      <animate
+        attributeName="stroke-dashoffset"
+        values="0;-120"
+        dur="3.8s"
+        repeatCount="indefinite"
+      />
+    </path>
+
+  </g>
+
+
+  <!-- ======================================================= -->
+  <!-- CENTRAL NODE: ABDUL HALIM -->
+  <!-- ======================================================= -->
+
+  <circle
+    cx="550"
+    cy="310"
+    r="112"
+    fill="url(#centerGradient)"
+    stroke="#00D9FF"
+    stroke-width="2.5"
+    filter="url(#strongGlow)"
+  >
+
+    <animate
+      attributeName="r"
+      values="108;116;108"
+      dur="4s"
+      repeatCount="indefinite"
+    />
+
+    <animate
+      attributeName="stroke"
+      values="#00D9FF;#8A2BE2;#FF1493;#00D9FF"
+      dur="6s"
+      repeatCount="indefinite"
+    />
+
+  </circle>
+
+
+  <g
+    text-anchor="middle"
+    fill="#FFFFFF"
+    font-family="Arial, Helvetica, sans-serif"
+    font-weight="700"
+    font-size="22"
+  >
+
+    <text x="550" y="292">
+      Abdul
+    </text>
+
+    <text x="550" y="322">
+      HALIM
+    </text>
+
+  </g>
+
+
+  <!-- ======================================================= -->
+  <!-- 1. MATHEMATICS -->
+  <!-- ======================================================= -->
+
+  <circle
+    cx="200"
+    cy="100"
+    r="68"
+    fill="#6F42C1"
+    stroke="#A970FF"
+    stroke-width="2"
+    filter="url(#softGlow)"
+  >
+
+    <animate
+      attributeName="opacity"
+      values="0.72;1;0.72"
+      dur="3.2s"
+      repeatCount="indefinite"
+    />
+
+  </circle>
+
+
+  <text
+    x="200"
+    y="105"
+    text-anchor="middle"
+    fill="#FFFFFF"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="16"
+    font-weight="700"
+  >
+    Mathematics
+  </text>
+
+
+  <!-- ======================================================= -->
+  <!-- 2. MACHINE LEARNING -->
+  <!-- ======================================================= -->
+
+  <circle
+    cx="420"
+    cy="85"
+    r="64"
+    fill="#007ACC"
+    stroke="#58A6FF"
+    stroke-width="2"
+    filter="url(#softGlow)"
+  >
+
+    <animate
+      attributeName="opacity"
+      values="1;0.68;1"
+      dur="2.6s"
+      repeatCount="indefinite"
+    />
+
+  </circle>
+
+
+  <g
+    text-anchor="middle"
+    fill="#FFFFFF"
+    font-family="Arial"
+    font-size="15"
+    font-weight="700"
+  >
+
+    <text x="420" y="80">
+      Machine
+    </text>
+
+    <text x="420" y="101">
+      Learning
+    </text>
+
+  </g>
+
+
+  <!-- ======================================================= -->
+  <!-- 3. COMPUTER VISION -->
+  <!-- ======================================================= -->
+
+  <circle
+    cx="680"
+    cy="85"
+    r="64"
+    fill="#E65100"
+    stroke="#FF9800"
+    stroke-width="2"
+    filter="url(#softGlow)"
+  >
+
+    <animate
+      attributeName="opacity"
+      values="0.68;1;0.68"
+      dur="3s"
+      repeatCount="indefinite"
+    />
+
+  </circle>
+
+
+  <g
+    text-anchor="middle"
+    fill="#FFFFFF"
+    font-family="Arial"
+    font-size="15"
+    font-weight="700"
+  >
+
+    <text x="680" y="80">
+      Computer
+    </text>
+
+    <text x="680" y="101">
+      Vision
+    </text>
+
+  </g>
+
+
+  <!-- ======================================================= -->
+  <!-- 4. NATURAL LANGUAGE PROCESSING -->
+  <!-- ======================================================= -->
+
+  <circle
+    cx="900"
+    cy="100"
+    r="70"
+    fill="#0088AA"
+    stroke="#00D9FF"
+    stroke-width="2"
+    filter="url(#softGlow)"
+  >
+
+    <animate
+      attributeName="opacity"
+      values="1;0.7;1"
+      dur="3.5s"
+      repeatCount="indefinite"
+    />
+
+  </circle>
+
+
+  <g
+    text-anchor="middle"
+    fill="#FFFFFF"
+    font-family="Arial"
+    font-size="13.5"
+    font-weight="700"
+  >
+
+    <text x="900" y="82">
+      Natural Language
+    </text>
+
+    <text x="900" y="104">
+      Processing
+    </text>
+
+  </g>
+
+
+  <!-- ======================================================= -->
+  <!-- 5. TOPOLOGICAL DATA ANALYSIS -->
+  <!-- ======================================================= -->
+
+  <circle
+    cx="160"
+    cy="310"
+    r="76"
+    fill="#B51771"
+    stroke="#FF1493"
+    stroke-width="2"
+    filter="url(#softGlow)"
+  >
+
+    <animate
+      attributeName="opacity"
+      values="0.7;1;0.7"
+      dur="2.9s"
+      repeatCount="indefinite"
+    />
+
+  </circle>
+
+
+  <g
+    text-anchor="middle"
+    fill="#FFFFFF"
+    font-family="Arial"
+    font-size="13.5"
+    font-weight="700"
+  >
+
+    <text x="160" y="286">
+      Topological
+    </text>
+
+    <text x="160" y="308">
+      Data
+    </text>
+
+    <text x="160" y="330">
+      Analysis
+    </text>
+
+  </g>
+
+
+  <!-- ======================================================= -->
+  <!-- 6. ARTIFICIAL INTELLIGENCE -->
+  <!-- ======================================================= -->
+
+  <circle
+    cx="940"
+    cy="310"
+    r="76"
+    fill="#00796B"
+    stroke="#00CFA5"
+    stroke-width="2"
+    filter="url(#softGlow)"
+  >
+
+    <animate
+      attributeName="opacity"
+      values="1;0.68;1"
+      dur="3.1s"
+      repeatCount="indefinite"
+    />
+
+  </circle>
+
+
+  <g
+    text-anchor="middle"
+    fill="#FFFFFF"
+    font-family="Arial"
+    font-size="13.5"
+    font-weight="700"
+  >
+
+    <text x="940" y="300">
+      Artificial
+    </text>
+
+    <text x="940" y="323">
+      Intelligence
+    </text>
+
+  </g>
+
+
+  <!-- ======================================================= -->
+  <!-- 7. MLOPS -->
+  <!-- ======================================================= -->
+
+  <circle
+    cx="250"
+    cy="520"
+    r="67"
+    fill="#C2185B"
+    stroke="#FF5C8A"
+    stroke-width="2"
+    filter="url(#softGlow)"
+  >
+
+    <animate
+      attributeName="opacity"
+      values="0.7;1;0.7"
+      dur="3.4s"
+      repeatCount="indefinite"
+    />
+
+  </circle>
+
+
+  <text
+    x="250"
+    y="525"
+    text-anchor="middle"
+    fill="#FFFFFF"
+    font-family="Arial"
+    font-size="16"
+    font-weight="700"
+  >
+    MLOps
+  </text>
+
+
+  <!-- ======================================================= -->
+  <!-- 8. AI ENGINEER -->
+  <!-- ======================================================= -->
+
+  <circle
+    cx="470"
+    cy="535"
+    r="68"
+    fill="#1565C0"
+    stroke="#42A5F5"
+    stroke-width="2"
+    filter="url(#softGlow)"
+  >
+
+    <animate
+      attributeName="opacity"
+      values="1;0.68;1"
+      dur="2.8s"
+      repeatCount="indefinite"
+    />
+
+  </circle>
+
+
+  <g
+    text-anchor="middle"
+    fill="#FFFFFF"
+    font-family="Arial"
+    font-size="15"
+    font-weight="700"
+  >
+
+    <text x="470" y="530">
+      AI
+    </text>
+
+    <text x="470" y="553">
+      Engineer
+    </text>
+
+  </g>
+
+
+  <!-- ======================================================= -->
+  <!-- 9. GEOMETRIC DEEP LEARNING -->
+  <!-- ======================================================= -->
+
+  <circle
+    cx="650"
+    cy="535"
+    r="67"
+    fill="#673AB7"
+    stroke="#B388FF"
+    stroke-width="2"
+    filter="url(#softGlow)"
+  >
+
+    <animate
+      attributeName="opacity"
+      values="0.68;1;0.68"
+      dur="3.3s"
+      repeatCount="indefinite"
+    />
+
+  </circle>
+
+
+  <g
+    text-anchor="middle"
+    fill="#FFFFFF"
+    font-family="Arial"
+    font-size="14"
+    font-weight="700"
+  >
+
+    <text x="650" y="529">
+      Geometric
+    </text>
+
+    <text x="650" y="551">
+      Deep Learning
+    </text>
+
+  </g>
+
+
+  <!-- ======================================================= -->
+  <!-- 10. SCIENTIFIC COMPUTING -->
+  <!-- ======================================================= -->
+
+  <circle
+    cx="850"
+    cy="520"
+    r="67"
+    fill="#455A64"
+    stroke="#90A4AE"
+    stroke-width="2"
+    filter="url(#softGlow)"
+  >
+
+    <animate
+      attributeName="opacity"
+      values="1;0.7;1"
+      dur="2.7s"
+      repeatCount="indefinite"
+    />
+
+  </circle>
+
+
+  <g
+    text-anchor="middle"
+    fill="#FFFFFF"
+    font-family="Arial"
+    font-size="13.5"
+    font-weight="700"
+  >
+
+    <text x="850" y="514">
+      Scientific
+    </text>
+
+    <text x="850" y="536">
+      Computing
+    </text>
+
+  </g>
+
+
+  <!-- ======================================================= -->
+  <!-- 11. ACTUARIAL SCIENCE -->
+  <!-- ======================================================= -->
+
+  <circle
+    cx="85"
+    cy="505"
+    r="62"
+    fill="#996515"
+    stroke="#FFD700"
+    stroke-width="2.5"
+    filter="url(#softGlow)"
+  >
+
+    <animate
+      attributeName="opacity"
+      values="0.72;1;0.72"
+      dur="3.6s"
+      repeatCount="indefinite"
+    />
+
+    <animate
+      attributeName="stroke"
+      values="#FFD700;#FFA500;#FFE55C;#FFD700"
+      dur="5s"
+      repeatCount="indefinite"
+    />
+
+  </circle>
+
+
+  <g
+    text-anchor="middle"
+    fill="#FFFFFF"
+    font-family="Arial"
+    font-size="14"
+    font-weight="700"
+  >
+
+    <text x="85" y="499">
+      Actuarial
+    </text>
+
+    <text x="85" y="521">
+      Science
+    </text>
+
+  </g>
+
+
+  <!-- ======================================================= -->
+  <!-- MOVING PARTICLES -->
+  <!-- ======================================================= -->
+
+  <!-- Mathematics -->
+
+  <circle
+    r="5"
+    fill="#00FFFF"
+    filter="url(#strongGlow)"
+  >
+    <animateMotion
+      path="M200 100 L550 310"
+      dur="3.2s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+
+  <!-- Machine Learning -->
+
+  <circle
+    r="5"
+    fill="#58A6FF"
+    filter="url(#strongGlow)"
+  >
+    <animateMotion
+      path="M420 85 L550 310"
+      dur="2.6s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+
+  <!-- Computer Vision -->
+
+  <circle
+    r="5"
+    fill="#FF9800"
+    filter="url(#strongGlow)"
+  >
+    <animateMotion
+      path="M680 85 L550 310"
+      dur="3.1s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+
+  <!-- Natural Language Processing -->
+
+  <circle
+    r="5"
+    fill="#00D9FF"
+    filter="url(#strongGlow)"
+  >
+    <animateMotion
+      path="M900 100 L550 310"
+      dur="3.7s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+
+  <!-- Topological Data Analysis -->
+
+  <circle
+    r="5"
+    fill="#FF1493"
+    filter="url(#strongGlow)"
+  >
+    <animateMotion
+      path="M160 310 L550 310"
+      dur="3.3s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+
+  <!-- Artificial Intelligence -->
+
+  <circle
+    r="5"
+    fill="#00CFA5"
+    filter="url(#strongGlow)"
+  >
+    <animateMotion
+      path="M940 310 L550 310"
+      dur="2.9s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+
+  <!-- MLOps -->
+
+  <circle
+    r="5"
+    fill="#FF5C8A"
+    filter="url(#strongGlow)"
+  >
+    <animateMotion
+      path="M250 520 L550 310"
+      dur="3.5s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+
+  <!-- AI Engineer -->
+
+  <circle
+    r="5"
+    fill="#42A5F5"
+    filter="url(#strongGlow)"
+  >
+    <animateMotion
+      path="M470 535 L550 310"
+      dur="2.8s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+
+  <!-- Geometric Deep Learning -->
+
+  <circle
+    r="5"
+    fill="#B388FF"
+    filter="url(#strongGlow)"
+  >
+    <animateMotion
+      path="M650 535 L550 310"
+      dur="3.4s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+
+  <!-- Scientific Computing -->
+
+  <circle
+    r="5"
+    fill="#CFD8DC"
+    filter="url(#strongGlow)"
+  >
+    <animateMotion
+      path="M850 520 L550 310"
+      dur="3s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+
+  <!-- Actuarial Science -->
+
+  <circle
+    r="5"
+    fill="#FFD700"
+    filter="url(#strongGlow)"
+  >
+    <animateMotion
+      path="M85 505 L550 310"
+      dur="3.8s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+
+  <!-- ======================================================= -->
+  <!-- ORBITING PARTICLES -->
+  <!-- ======================================================= -->
+
+  <g transform="translate(550 310)">
+
+    <!-- Cyan orbiting particle -->
+
+    <circle
+      r="4"
+      fill="#00D9FF"
+    >
+
+      <animateMotion
+        dur="7s"
+        repeatCount="indefinite"
+        path="M0,-137 A137,137 0 1,1 0,137 A137,137 0 1,1 0,-137"
+      />
+
+    </circle>
+
+
+    <!-- Pink orbiting particle -->
+
+    <circle
+      r="3.5"
+      fill="#FF1493"
+    >
+
+      <animateMotion
+        dur="9s"
+        repeatCount="indefinite"
+        path="M0,150 A150,150 0 1,0 0,-150 A150,150 0 1,0 0,150"
+      />
+
+    </circle>
+
+  </g>
+
+
+  <!-- ======================================================= -->
+  <!-- FOOTER -->
+  <!-- ======================================================= -->
+
+
+</svg>
