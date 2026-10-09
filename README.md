@@ -241,9 +241,7 @@ I focus on translating mathematical theory into efficient algorithms, computatio
 <!-- GITHUB CONTRIBUTIONS AND SNAKE ANIMATION              -->
 <!-- ====================================================== -->
 
-<div align="center">
-
-  <h2>🐍 GitHub Contribution Snake</h2>
+<!-- GITHUB CONTRIBUTION SNAKE -->
 
   <picture>
     <source
@@ -264,7 +262,6 @@ I focus on translating mathematical theory into efficient algorithms, computatio
   </picture>
 
 </div>
-
 ---
 
 # 🤝 Project Collaboration
