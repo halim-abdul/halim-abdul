@@ -1,0 +1,159 @@
+<svg
+width="1100"
+height="180"
+viewBox="0 0 1100 180"
+xmlns="http://www.w3.org/2000/svg"
+
+>
+
+  <defs>
+
+```
+<linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+
+  <stop offset="0%" stop-color="#00C9FF">
+    <animate
+      attributeName="stop-color"
+      values="#00C9FF;#8A2BE2;#FF1493;#FF6F00;#00C9FF"
+      dur="6s"
+      repeatCount="indefinite"
+    />
+  </stop>
+
+  <stop offset="50%" stop-color="#8A2BE2">
+    <animate
+      attributeName="stop-color"
+      values="#8A2BE2;#FF1493;#00C9FF;#FF6F00;#8A2BE2"
+      dur="6s"
+      repeatCount="indefinite"
+    />
+  </stop>
+
+  <stop offset="100%" stop-color="#FF1493">
+    <animate
+      attributeName="stop-color"
+      values="#FF1493;#FF6F00;#8A2BE2;#00C9FF;#FF1493"
+      dur="6s"
+      repeatCount="indefinite"
+    />
+  </stop>
+
+</linearGradient>
+
+<clipPath id="typingClip">
+  <rect x="120" y="0" width="0" height="150">
+    <animate
+      attributeName="width"
+      values="
+      0;
+      20;40;60;80;100;120;140;160;180;
+      200;220;240;260;280;300;320;340;360;380;
+      400;420;440;460;480;500;520;540;560;580;
+      600;620;640;660;680;700;720;740;760;780;
+      800;820;840;860"
+      dur="5.5s"
+      calcMode="discrete"
+      fill="freeze"
+    />
+  </rect>
+</clipPath>
+
+<filter id="glow">
+  <feGaussianBlur stdDeviation="3" result="blur"/>
+  <feMerge>
+    <feMergeNode in="blur"/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+```
+
+  </defs>
+
+  <!-- Main typing text -->
+
+  <g clip-path="url(#typingClip)">
+
+```
+<text
+  x="550"
+  y="85"
+  text-anchor="middle"
+  fill="url(#textGradient)"
+  font-family="Fira Code, JetBrains Mono, Consolas, monospace"
+  font-size="34"
+  font-weight="700"
+  filter="url(#glow)"
+>
+  Thank you for visiting me, Bye Bye! 👋
+</text>
+```
+
+  </g>
+
+  <!-- Typing cursor -->
+
+<rect
+x="120"
+y="53"
+width="3"
+height="42"
+fill="#00D9FF"
+
+>
+
+```
+<animate
+  attributeName="x"
+  values="
+  120;
+  140;160;180;200;220;240;260;280;300;
+  320;340;360;380;400;420;440;460;480;500;
+  520;540;560;580;600;620;640;660;680;700;
+  720;740;760;780;800;820;840;860;880;900;
+  920;940;960;980"
+  dur="5.5s"
+  calcMode="discrete"
+  fill="freeze"
+/>
+
+<animate
+  attributeName="opacity"
+  values="1;0;1"
+  dur="0.8s"
+  repeatCount="indefinite"
+/>
+```
+
+  </rect>
+
+  <!-- Final subtitle -->
+
+<text
+x="550"
+y="135"
+text-anchor="middle"
+fill="#8B949E"
+font-family="Arial, Helvetica, sans-serif"
+font-size="15"
+letter-spacing="2"
+opacity="0"
+
+>
+
+```
+SEE YOU AGAIN SOON
+```
+
+```
+<animate
+  attributeName="opacity"
+  values="0;1"
+  begin="5.5s"
+  dur="1.2s"
+  fill="freeze"
+/>
+```
+
+  </text>
+
+</svg>
